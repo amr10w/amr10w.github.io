@@ -1,5 +1,5 @@
-name: Arnob Karmokar
-tagline: Electrical and Electronic Engineer
+name: Amr Ahmed Wahidi
+tagline: Computer and Systems Engineer
 career-objective: This is a GitHub Pages template for academic portfolio websites. Fork <a href="https://github.com/academicportfolio/academicportfolio.github.io">this repository</a> to get started. This section will be replaced by your career objective. Read the README of the repository to learn about customizing the site.
 color-theme: red # red or blue
 avatar-filename: avatar.png # Change to your avatar's filename
@@ -12,16 +12,14 @@ paginate_path: "/blog/page:num/"
 social:
   email: 
     visibility: true
-    mail: contact@arnob.me
+    mail: amr.ahmed.wahidi@gmail.com
   github: 
     visibility: true
-    handle: arnobk
+    handle: amr10w
   linkedin: 
     visibility: true
-    handle: arnobkarmokar
-  twitter: 
-    visibility: true
-    handle: arnobdotme
+    handle: amr-wahidi
+ 
 
 # Collections
 collections:
