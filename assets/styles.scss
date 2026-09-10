@@ -109,7 +109,114 @@ a:hover {
     font-weight: 400;
     font-size: 18px;
     color: #555555;
+}
 
+/* Collapsible Dropdown Sections */
+.ap-collapsible-group {
+    margin-top: -16px;
+    margin-bottom: -16px;
+}
+
+.ap-collapsible {
+    border-bottom: 1px solid #eeeeee;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.ap-collapsible-summary {
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    user-select: none;
+    list-style: none;
+    outline: none;
+    transition: color 0.15s ease;
+
+    &::-webkit-details-marker {
+        display: none;
+    }
+
+    &::marker {
+        display: none;
+    }
+
+    &:hover {
+        color: #000000;
+
+        .ap-collapsible-arrow {
+            color: #000000;
+        }
+    }
+
+    &:focus-visible {
+        outline: 2px solid $link;
+        outline-offset: 4px;
+        border-radius: 4px;
+    }
+}
+
+.ap-collapsible-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 9px;
+    height: 9px;
+    margin-right: 12px;
+    color: #555555;
+    transform-origin: center;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.15s ease;
+}
+
+.ap-collapsible[open] > .ap-collapsible-summary .ap-collapsible-arrow {
+    transform: rotate(90deg);
+}
+
+.ap-collapsible-title {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.ap-collapsible-content {
+    padding: 4px 0 24px 21px;
+    animation: apDropdownFade 0.25s ease-out;
+
+    > :first-child {
+        margin-top: 4px;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.ap-career-objective {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #444444;
+}
+
+@keyframes apDropdownFade {
+    from {
+        opacity: 0;
+        transform: translateY(-4px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .ap-experience {
