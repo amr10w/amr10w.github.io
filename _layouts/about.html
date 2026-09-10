@@ -77,7 +77,8 @@ layout: default
             <span class="ap-collapsible-title">{{site.collection_option['projects']['label']}}</span>
         </summary>
         <div class="ap-collapsible-content">
-            {% for project in site.projects reversed %}
+            {% assign sorted_projects = site.projects | sort: "order" %}
+            {% for project in sorted_projects %}
             <div class="ap-project">
                 <a class="ap-project-title" href="{{project.url}}">{{project.title}}</a>
                 <p class="ap-project-year">{{project.year}}</p>

@@ -2,6 +2,7 @@
 title: XML Social Network Analyzer
 layout: project
 year: 2025
+order: 4
 project-url: https://github.com/amr10w/ILoveXML
 excerpt: Led a team of 9 building a C++ desktop app (GUI/CLI) for parsing, compressing (BPE), and analyzing social network data from XML files.
 project-image: <your project image url or leave placeholder>

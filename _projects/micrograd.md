@@ -2,6 +2,7 @@
 title: Micrograd - Autograd Engine & Neural Network Library
 layout: project
 year: 2025
+order: 7
 project-url: https://github.com/amr10w/micrograd
 excerpt: A pure-Python automatic differentiation engine and neural network library built from scratch to internalize deep learning framework mechanics.
 project-image: <your project image url or leave placeholder>
