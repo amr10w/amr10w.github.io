@@ -2,7 +2,7 @@
 title: Car Plate Detection
 layout: project
 year: 2025
-project-url: <your repo link here>
+project-url: https://github.com/amr10w/Car-Plate-Detection-YOLO
 excerpt: YOLOv11-based license plate detection achieving 97.6% precision and 98.3% mAP@50 on a 10,125-image Roboflow dataset, with a Streamlit app.
 project-image: <your project image url or leave placeholder>
 tags: [YOLOv11, OpenCV, FFmpeg, Streamlit]

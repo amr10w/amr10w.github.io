@@ -2,7 +2,7 @@
 title: Vezeeta Pulse
 layout: project
 year: 2026
-project-url: <your repo link here>
+project-url: https://github.com/amr10w/vezeeta-pulse
 excerpt: Led a 10-person team building an end-to-end data intelligence pipeline extracting and analyzing 17,000+ healthcare provider profiles from the MENA region's largest medical platform.
 project-image: <your project image url or leave placeholder>
 tags: [Python, Scrapy, Pandas, FAISS, Flask]
